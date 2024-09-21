@@ -1,0 +1,95 @@
+<html>
+<head>
+<body>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/027/231/618/non_2x/illustration-graphic-of-aesthetic-background-template-with-subtle-pastel-colors-and-nature-motifs-vector.jpg");
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.todolist{
+    width: 100%;
+    max-width: 540px;
+    background: #ccd5ae;
+    margin: 100px auto 20px;
+    padding: 50px 35px 60px;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center
+    
+}
+.todolist h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.todolist h2 img{
+    width: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: grey;
+    background: transparent blue;
+    padding: 10px;
+    font-weight: 14px;
+    }
+button{
+    padding: 14px 16px;
+    background: lightblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+ 
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 20px 8px 12px 50px;
+    cursor: pointer;
+    position: relative;
+    background-color: #fefae0;
+}
+
+ul li.checked{
+    color: pink;
+    text-decoration: line-through;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: pink;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background: lightblue;
+
+}
+</body>
+</head>
+</html>
